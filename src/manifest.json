@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Lipsum injector",
+    "description": "This extension is a simple tool to inject Lorem ipsum where possible.",
+    "homepage_url": "http://www.mwtestconsultancy.co.uk",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Click here!"
+    },
+    "background": {
+        "scripts": [
+            "main.js"
+        ]
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
